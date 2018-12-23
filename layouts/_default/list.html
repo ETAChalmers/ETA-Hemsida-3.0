@@ -1,0 +1,9 @@
+{{ define "main" }}
+  This is the LIST template
+
+  {{.Content}}          <!-- Display content of _index.md -->
+
+  {{ range .Pages }}    <!-- Display content of subpages -->
+    <!-- Specify what should be displayed -->
+  {{end}}
+{{end}}
