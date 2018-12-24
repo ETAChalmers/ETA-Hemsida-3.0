@@ -1,11 +1,15 @@
 .navbar {
   min-height: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .navbar-brand {
-  padding: 0 15px;
-  height: 80px;
-  line-height: 80px;
+  padding-left: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 64px;
+  line-height: 60px;
 }
 
 .navbar-brand > img {
