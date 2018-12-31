@@ -1,0 +1,87 @@
+/* Styling for landing page header. */
+.jumbotron h1 {
+  font-weight: 1000;
+}
+.jumbotron .container {
+  height: 100%;
+  display: grid;
+}
+.jumbotron {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.jumbotron span {
+  margin: auto;
+  padding-bottom: 10%;
+}
+#jumbotron-transcolor {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.content > div {
+  position: relative;
+}
+
+#eta-intro {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+#become-member {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+#home-map {
+  max-height: 100vh;
+  height: 400px;
+}
+
+#auction-info {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+
+#auction-info-transcolor {
+  /*background-color: rgba(212,199,86,0.6);*/
+  background-color: rgba(176,165,41,0.6);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  /* To center content */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#auction-info h4 {
+  font-weight: 1000;
+}
+
+.auction-info-content {
+  /* To center content */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
