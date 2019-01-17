@@ -2,6 +2,7 @@
 title: "Home"
 date: 2018-12-22T23:04:40+01:00
 draft: true
+menu: "main"
 ---
 
 <!-- Title with image. Input URL to header image. -->
@@ -14,7 +15,7 @@ draft: true
 
 <!-- The auction -->
 {{< auction-info "/img/auction_photo.jpg" >}}
-  ETA arranges Sweden's largest electronics auction. 
+  ETA arranges Sweden's largest electronics auction.
   <br><br>
   See the auction page for more information and goods.
 {{< /auction-info >}}

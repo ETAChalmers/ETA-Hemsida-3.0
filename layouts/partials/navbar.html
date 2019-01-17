@@ -9,8 +9,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       {{ $title := .Title}}
       <div class="navbar-nav ml-auto">
-        {{ range .Site.RegularPages }}
-          <a class="nav-item nav-link {{if eq $title .Title}} active {{end}}" href="{{.RelPermalink}}">{{.Title}}</a>
+        {{ range .Site.Menus.main }}
+          <a class="nav-item nav-link {{if eq $title .Title}} active {{end}}" href="{{.URL}}">{{.Title}}</a>
         {{end}}
       </div>
     </div>
