@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      {{ partial "auction/sidebar.html" . }}
+    </div>
+    <div class="col">
+      <h3>{{ .Title }}</h3>
+      {{ partial "auction/items-table.html" (dict "context" . "category" .Params.itemCategory) }}
+    </div>
+  </div>
+</div>
+
+{{ end  }}

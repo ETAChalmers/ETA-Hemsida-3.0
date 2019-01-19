@@ -1,0 +1,18 @@
+<h2>Auction</h2>
+<hr>
+<div class="auction-menu-container">
+  <ul>
+    <li><a href="/auction">Home</a></li>
+  </ul>
+</div>
+
+<h2>Catalogue</h2>
+<hr>
+<div class="auction-menu-container">
+  <ul>
+    {{ range .Site.Menus.auction }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+    <li><a href="/auction/all">All</a></li>
+  </ul>
+</div>
