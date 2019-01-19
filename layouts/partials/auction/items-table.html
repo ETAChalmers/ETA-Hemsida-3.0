@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="/css/auction.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 
 <table id="auction-items-table" class="table table-striped table-bordered" style="width:100%">
   <thead>
@@ -42,3 +44,9 @@
 
   </tbody>
 </table>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    $("#auction-items-table").DataTable();
+  });
+</script>
