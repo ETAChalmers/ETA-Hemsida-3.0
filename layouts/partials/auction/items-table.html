@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/css/auction.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+<table id="auction-items-table" class="table table-striped table-bordered" style="width:100%">
+  <thead>
+    <tr>
+      <th scope="col">Picture</th>
+      <th scope="col">Description</th>
+      <th scope="col">Status</th>
+      <th scope="col">Category</th>
+      <th scope="col">ID</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {{ $auctionConfig := .context.Site.Data.AuctionConfig }}
+    {{ $data := getCSV "," "content/auction/auctionItems.csv"}}
+    {{ range after 1 $data }}
+      {{ if or (in $.category (index . 2)) (eq $.category "All") }}
+        <tr>
+          <td>
+            {{ $image := resources.Get (printf "auction/images/%s.jpg" (index . 4)) }}
+            {{ if $image }}
+              {{ $thumbnail := $image.Fill "200x200" }}
+              <a href={{ $image.Permalink }}> <img class="auction-item-thumbnail" src={{$thumbnail.Permalink}}> </a>
+            {{ end }}
+          </td>
+          <td>
+            {{ index . 0 }}
+          </td>
+          <td>
+            {{ index . 1 }}
+          </td>
+          <td>
+            {{ index . 2 }}
+          </td>
+          <td>
+            {{ index . 4 }}
+          </td>
+        </tr>
+      {{ end }}
+    {{ end }}
+
+  </tbody>
+</table>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    $("#auction-items-table").DataTable();
+  });
+</script>
