@@ -16,7 +16,7 @@ menu: "main"
 <!-- The auction -->
 {{< auction-info "/img/auction_photo.jpg" >}}
   ETA arranges Sweden's largest electronics auction.
-  <br><br>
+  <br>
   See the auction page for more information and goods.
 {{< /auction-info >}}
 

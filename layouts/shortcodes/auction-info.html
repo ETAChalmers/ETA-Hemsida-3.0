@@ -1,17 +1,10 @@
-<div id="auction-info" class="container-fluid" style="background-image: url({{.Get 0}});">
-  <div id="auction-info-transcolor" style="">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 auction-info-content">
-          <h4>{{ .Inner }}</h4>
-        </div>
-        <div class="col-md-6 auction-info-content">
-            <!-- Button -->
-            <a href="/auction/">
-              <button type="button" class="btn btn-light btn-lg">Read more</button>
-            </a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div id="auction-info" style="background-image: url({{.Get 0}});">
+	<div id="auction-info-transcolor">
+			<h4>{{ .Inner }}</h4>
+			
+			<!-- Button -->
+			<a href="/auction/">
+				<button type="button" class="btn btn-light btn-lg">Read more</button>
+			</a>
+	</div>
 </div>
