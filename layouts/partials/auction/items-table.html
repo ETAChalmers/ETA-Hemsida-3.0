@@ -36,7 +36,7 @@
             {{ index . 2 }}
           </td>
           <td>
-            {{ index . 4 }}
+            {{ sub (int (index . 4)) (mul $auctionConfig.auctionYear 10000)}}
           </td>
         </tr>
       {{ end }}
