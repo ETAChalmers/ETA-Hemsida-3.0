@@ -19,3 +19,49 @@
 nav {
   box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
 }
+
+/* Only active when the navbar is expanded, matching navbar-exapnd-lg */
+@media (min-width:992px) {
+  .dropdown-menu {
+    width: 100%;
+    position: fixed;
+    top: 79px;    /* Height of the main navbar */
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    background-color: #6c757d;
+  }
+
+  .navbar > .show {
+    display: block;
+  }
+
+  .dropdown-item {
+    display: inline;
+    padding: 0.5em;
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    background-color: inherit;
+    color: black;
+  }
+
+  .dropdown-item.active, .dropdown-item:active {
+    background-color: inherit;
+    color: black;
+  }
+
+  .active-submenu:before {
+    content: '';
+    position: absolute;
+    transform: translate(50%,100%);
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    margin-top: 1px;
+    border-style: solid;
+    border-width: 0 20px 30px 20px;
+    border-color: transparent transparent #6c757d transparent;
+  }
+}

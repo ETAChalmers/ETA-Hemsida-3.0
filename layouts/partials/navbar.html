@@ -7,10 +7,19 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      {{ $title := .Title}}
+      {{ $currentPage := . }}
       <div class="navbar-nav ml-auto">
         {{ range .Site.Menus.main }}
-          <a class="nav-item nav-link {{if eq $title .Title}} active {{end}}" href="{{.URL}}">{{.Title}}</a>
+          {{ if .HasChildren }}
+            <a class="nav-item nav-link {{if eq $currentPage.Title .Title}} active {{end}}{{ if or ($currentPage.HasMenuCurrent "main" . ) ($currentPage.IsMenuCurrent "main" . ) }}active-submenu{{end}}" href="{{.URL}}">{{.Title}}</a>
+            <div class="dropdown-menu {{ if or ($currentPage.HasMenuCurrent "main" . ) ($currentPage.IsMenuCurrent "main" . ) }} show {{end}}" aria-labelledby="navbarDropdown">
+              {{ range .Children }}
+                <a class="dropdown-item {{if eq $currentPage.Title .Title}} active {{end}}" href="{{.URL}}">{{ .Title }}</a>
+              {{end}}
+            </div>
+          {{ else }}
+            <a class="nav-item nav-link {{if eq $currentPage.Title .Title}} active {{end}}" href="{{.URL}}">{{.Title}}</a>
+          {{end}}
         {{end}}
       </div>
     </div>
