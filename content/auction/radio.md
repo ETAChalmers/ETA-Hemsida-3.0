@@ -3,5 +3,7 @@ title: "Radio"
 type: "auction"
 layout: "items"
 itemCategory: "Radio"
-menu: "auction"
+menu:
+  main:
+    parent: "Auction"
 ---

@@ -3,5 +3,7 @@ title: "Computer"
 type: "auction"
 layout: "items"
 itemCategory: "Computer"
-menu: "auction"
+menu:
+  main:
+    parent: "Auction"
 ---

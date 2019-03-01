@@ -3,5 +3,7 @@ title: "Miscellaneous"
 type: "auction"
 layout: "items"
 itemCategory: "Miscellaneous"
-menu: "auction"
+menu:
+  main:
+    parent: "Auction"
 ---
