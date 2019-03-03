@@ -2,7 +2,9 @@
 title: "Home"
 date: 2018-12-22T23:04:40+01:00
 draft: false
-menu: "main"
+menu:
+  main:
+    weight: 100
 ---
 
 <!-- Title with image. Input URL to header image. -->
