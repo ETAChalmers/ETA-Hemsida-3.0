@@ -1,0 +1,8 @@
+@include media-breakpoint-down(xs) {
+	#home-map  {
+		max-width: 100;
+	}
+}
+#home-map  {
+		margin-bottom: 5rem;
+	}
