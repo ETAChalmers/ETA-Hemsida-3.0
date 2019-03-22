@@ -1,0 +1,47 @@
+/* Import config styling */
+  @import "config";
+  @import "utilities";
+
+/* Import external styling */
+  /* Bootstrap CSS. Used for general stylign and grid layout */
+  @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+
+  /* Used for auction site */
+  @import url("https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css");
+  @import url("https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css");
+
+/* Import partial styling */
+  @import "navbar";
+  @import "index";
+  @import "auction";
+
+
+/* Page broad styling */
+html, body {
+  height: 100%; 
+}
+
+body {
+  position: relative;
+}
+
+#contentwrapper {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 80px;     /* Magic number!! Height of navbar */
+  bottom: 0px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+  flex-shrink: 0;
+  bottom: 0;
+}
