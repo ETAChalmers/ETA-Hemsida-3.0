@@ -1,0 +1,15 @@
+
+/* Import config styling */
+
+/* Import external styling */
+  /* Bootstrap CSS. Used for general stylign and grid layout */
+  @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+
+  /* Used for auction site */
+  @import url("https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css");
+  @import url("https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css");
+
+/* Import partial styling */
+  @import "/css/navbar.css";
+  @import "/css/index.css";
+  @import "/css/auction.css";

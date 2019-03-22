@@ -18,11 +18,9 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="/css/custom.css">
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <!-- JS for iframe-resizing. Used in wiki page -->
+		<!-- Include general CSS -->
+    {{ $style := resources.Get "style/main.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
 
   </head>
   <body>
