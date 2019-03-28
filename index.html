@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+	<meta name="generator" content="Hugo 0.54.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ETA - Home</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#3a4448">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+		
+    
+    <link rel="stylesheet" href="/style/main.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="/."><img src="/img/etaloggapng.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+      <div class="navbar-nav ml-auto">
+        
+          <a class="nav-item nav-link  active " href="/">Home</a>
+        
+          <a class="nav-item nav-link " href="/auction/">Auction</a>
+        
+          <a class="nav-item nav-link " href="/contact/">Contact</a>
+        
+          <a class="nav-item nav-link " href="/equipment/">Equipment</a>
+        
+          <a class="nav-item nav-link " href="/wiki/">Wiki</a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+       
+
+    <div id="contentwrapper">
+      <div class="content">
+        
+  <!-- Title with image. Input URL to header image. -->
+
+<div id="header" class="jumbotron jumbotron-fluid container-fluid" style="background-image: url(/img/oscilloscope_cropped.jpg);">
+  <div id="jumbotron-transcolor">
+    <div class="container text-center text-white text-uppercase">
+      <span>
+        <h1 class="display-4">E-sektionens Teletekniska Avdelning</h1>
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<!-- Short introduction -->
+
+<div id="eta-intro" class="container text-center text-muted">
+  <h4>
+  ETA is an electronics and ham radio community at Chalmers University of Technology. Our lab provides the necessary instruments and equipment for you to excercise your electronics hobby.
+</h4>
+</div>
+
+
+<!-- The auction -->
+
+<div id="auction-info" style="background-image: url(/img/auction_photo.jpg);">
+	<div id="auction-info-transcolor">
+			<h4>
+  ETA arranges Sweden's largest electronics auction.
+  <br>
+  See the auction page for more information and goods.
+</h4>
+			
+			
+			<a href="/auction/">
+				<button type="button" class="btn btn-light btn-lg">Read more</button>
+			</a>
+	</div>
+</div>
+
+
+<!-- How to become a member -->
+
+<div id="become-member" class="container">
+  <h4>
+  <h3>Join us</h3>
+  Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text.
+  <br><br>
+  Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text. Här ska det stå en del text.
+  <br><br>
+  Lite vägbeskrivning också
+</h4>
+</div>
+
+
+<!-- How to get here -->
+
+
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+  crossorigin=""></script>
+  
+<div id="home-map" class="container">
+  
+</div>
+
+<script type="text/javascript">
+  var coordinate = [57.687895, 11.978108];
+  var map = L.map('home-map', {detectRetina: true, dragging: !L.Browser.mobile, touchZoom: true, tap: false}).setView(coordinate, 17);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  L.marker(coordinate).addTo(map);
+</script>
+
+          
+   
+      </div>
+
+      <footer class="container-fluid">
+        Footer
+      </footer>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+  </body>
+</html>

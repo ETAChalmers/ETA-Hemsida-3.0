@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://eta-chalmers.tk/wiki/</loc>
+    <lastmod>2018-12-23T02:45:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/contact/</loc>
+    <lastmod>2018-12-23T02:45:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/</loc>
+    <lastmod>2018-12-23T02:45:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/equipment/</loc>
+    <lastmod>2018-12-23T02:45:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/</loc>
+    <lastmod>2018-12-22T23:04:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/all/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/audio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/component/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/computer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/gerat/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/instruments/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/miscellaneous/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/nostalgia/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/power-supply/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/radio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://eta-chalmers.tk/auction/video/</loc>
+  </url>
+  
+</urlset>
