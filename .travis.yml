@@ -1,9 +1,9 @@
-# Install the apt prerequisites
 dist: xenial
 
 addons:
   snaps:
-  - hugo
+  - name: hugo
+    channel: extended
 
 # Clean and don't fail
 install:
