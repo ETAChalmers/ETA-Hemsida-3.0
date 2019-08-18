@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auction on My New Hugo Site</title>
+    <link>http://eta-chalmers.tk/auction/</link>
+    <description>Recent content in Auction on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Dec 2018 02:45:16 +0100</lastBuildDate>
+    
+	<atom:link href="http://eta-chalmers.tk/auction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All</title>
+      <link>http://eta-chalmers.tk/auction/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio</title>
+      <link>http://eta-chalmers.tk/auction/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Component</title>
+      <link>http://eta-chalmers.tk/auction/component/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/component/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer</title>
+      <link>http://eta-chalmers.tk/auction/computer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerät</title>
+      <link>http://eta-chalmers.tk/auction/gerat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/gerat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instruments</title>
+      <link>http://eta-chalmers.tk/auction/instruments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/instruments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>http://eta-chalmers.tk/auction/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/miscellaneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nostalgia</title>
+      <link>http://eta-chalmers.tk/auction/nostalgia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/nostalgia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power supply</title>
+      <link>http://eta-chalmers.tk/auction/power-supply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/power-supply/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>http://eta-chalmers.tk/auction/radio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>http://eta-chalmers.tk/auction/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/video/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

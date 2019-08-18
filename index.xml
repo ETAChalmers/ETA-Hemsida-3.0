@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://eta-chalmers.tk/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Dec 2018 23:04:40 +0100</lastBuildDate>
+    
+	<atom:link href="http://eta-chalmers.tk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wiki</title>
+      <link>http://eta-chalmers.tk/wiki/</link>
+      <pubDate>Sun, 23 Dec 2018 02:45:44 +0100</pubDate>
+      
+      <guid>http://eta-chalmers.tk/wiki/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://eta-chalmers.tk/contact/</link>
+      <pubDate>Sun, 23 Dec 2018 02:45:36 +0100</pubDate>
+      
+      <guid>http://eta-chalmers.tk/contact/</guid>
+      <description>position: fixed;
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+A fixed element does not leave a gap in the page where it would normally have been located.
+Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used: Example div.</description>
+    </item>
+    
+    <item>
+      <title>Equipment</title>
+      <link>http://eta-chalmers.tk/equipment/</link>
+      <pubDate>Sun, 23 Dec 2018 02:45:05 +0100</pubDate>
+      
+      <guid>http://eta-chalmers.tk/equipment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All</title>
+      <link>http://eta-chalmers.tk/auction/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio</title>
+      <link>http://eta-chalmers.tk/auction/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Component</title>
+      <link>http://eta-chalmers.tk/auction/component/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/component/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer</title>
+      <link>http://eta-chalmers.tk/auction/computer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerät</title>
+      <link>http://eta-chalmers.tk/auction/gerat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/gerat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instruments</title>
+      <link>http://eta-chalmers.tk/auction/instruments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/instruments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>http://eta-chalmers.tk/auction/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/miscellaneous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nostalgia</title>
+      <link>http://eta-chalmers.tk/auction/nostalgia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/nostalgia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power supply</title>
+      <link>http://eta-chalmers.tk/auction/power-supply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/power-supply/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radio</title>
+      <link>http://eta-chalmers.tk/auction/radio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>http://eta-chalmers.tk/auction/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eta-chalmers.tk/auction/video/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
